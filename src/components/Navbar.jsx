@@ -16,12 +16,12 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className="navbar-center">
-                    <a href='/' className="btn btn-ghost normal-case text-xl">Home</a>
-                    <a href='/' className="btn btn-ghost normal-case text-xl">Product</a>
-                    <a href='/' className="btn btn-ghost normal-case text-xl">Distributor</a>
-                    <a href='/' className="btn btn-ghost normal-case text-xl">Manufacturers</a>
-                    <a href='/' className="btn btn-ghost normal-case text-xl">About Us</a>
-                    <a href='/' className="btn btn-ghost normal-case text-xl">Blog</a>
+                    <p className="btn btn-ghost normal-case text-xl cursor-pointer">Home</p>
+                    <p className="btn btn-ghost normal-case text-xl cursor-pointer">Product</p>
+                    <p className="btn btn-ghost normal-case text-xl cursor-pointer">Distributor</p>
+                    <p className="btn btn-ghost normal-case text-xl cursor-pointer">Manufacturers</p>
+                    <p className="btn btn-ghost normal-case text-xl cursor-pointer">About Us</p>
+                    <p className="btn btn-ghost normal-case text-xl cursor-pointer">Blog</p>
                 </div>
                 <div className="navbar-end">
                     <button className="btn btn-ghost btn-circle mr-7">
