@@ -3,7 +3,7 @@ import { CgProfile } from 'react-icons/cg';
 
 const Navbar = () => {
     return (
-        <section>
+        <section className='text-white'>
             <div className="navbar bg-[#750B0B] border-2">
                 <div className="navbar-start">
                     <div className="dropdown">
