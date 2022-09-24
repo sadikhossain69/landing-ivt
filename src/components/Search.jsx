@@ -10,6 +10,13 @@ const Search = () => {
             <div>
                 <SearchInput/>
             </div>
+            <div className='space-x-3'>
+                <span className='text-xl font-bold text-slate-500'>Paracitamol</span>
+                <span className='text-sm font-bold text-slate-500'>(128 Products)</span>
+                <span className='bg-accent rounded py-1 px-3 text-white font-bold'>Napa</span>
+                <span className='bg-accent rounded py-1 px-3 text-white font-bold'>500 mg</span>
+                <span className='text-sm text-red-500 font-medium'>Remove all</span>
+            </div>
         </section>
     );
 };
